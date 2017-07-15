@@ -128,6 +128,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolde> {
                     return p3;
                 } else if (p7 == p8 && p8 == p9) {
                     return p7;
+                }else if(p2==5&&p5==p8)
+                {
+                    return p2
                 }
             }
             p = p1;
